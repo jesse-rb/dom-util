@@ -1,5 +1,5 @@
-# dom-util
-These are few utility functions to help make some vanilla Javascript code more concise
+# javascript-dom-util
+These are a few utility functions to help make some vanilla Javascript code more concise
 
 ## function appendElement
 
@@ -18,7 +18,7 @@ appendElement(exampleElement);
 
 object to describe an element to be appended:
 - `elem`: The element in question, to be appeneded
-- `parentElem`: The element to use the parent i.e. `parentElem.appendChild(elem);`
+- `parentElem`: The element to use as the parent i.e. `parentElem.appendChild(elem);`
 - `textContent`: The text content to be set for the element i.e. `elem.textContent = 'Some text!';`
 - `attrs`: The attributes to be set for the element i.e.
 ```
